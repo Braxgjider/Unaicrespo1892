@@ -1,1 +1,42 @@
+html {
+    height: -webkit-fill-available;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 100vh;
+    min-height: 100svh;
+    min-height: -webkit-fill-available;
+    margin: 0px;
+    font-family: sans-serif;
+    background-color: #FCDEE0;
+}
+
+#superior {
+    display: flex;
+    height: 8vmax;
+    justify-content: center;
+    align-items: center;
+    font-size: 4vmax;
+    color: white;
+    background-color: #950E17;
+}
+
+.seccio {
+    flex: 1;
+    display: none;
+}
+
+#seccio_1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 4vmax;
+}
+
+#menu {
+    height: 8vmax;
+}
 
